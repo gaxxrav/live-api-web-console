@@ -3,20 +3,6 @@ To get started, [create a free Gemini API key](https://aistudio.google.com/apike
 ```
 $ npm install && npm start
 ```
-
-We have provided several example applications on other branches of this repository:
-
-New demos with GenAI SDK:
-
-- [demos/proactive-audio](https://github.com/google-gemini/multimodal-live-api-web-console/tree/demos/proactive-audio) - demonstrates the Live API's [proactive audio feature](https://ai.google.dev/gemini-api/docs/live-guide#proactive-audio)
-
-
-Original demos:
-
-- [demos/GenExplainer](https://github.com/google-gemini/multimodal-live-api-web-console/tree/demos/genexplainer)
-- [demos/GenWeather](https://github.com/google-gemini/multimodal-live-api-web-console/tree/demos/genweather)
-- [demos/GenList](https://github.com/google-gemini/multimodal-live-api-web-console/tree/demos/genlist)
-
 ## Example
 
 Below is an example of an entire application that will use Google Search grounding and then render graphs using [vega-embed](https://github.com/vega/vega-embed):
@@ -116,6 +102,3 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
